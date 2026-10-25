@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MTK Client Mobile (BROM Engine)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00E676"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_scan_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCAN OTG DEVICE"
+        android:backgroundTint="#00796B"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_send_bypass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KIRIM BROM HANDSHAKE / BYPASS"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1E1E1E"
+        android:padding="8dp"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/tv_console_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Console Log Ready...\n"
+            android:textColor="#00FF00"
+            android:textSize="12sp" />
+    </ScrollView>
+
+</LinearLayout>
